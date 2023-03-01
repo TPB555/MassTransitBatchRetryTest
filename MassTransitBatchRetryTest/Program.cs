@@ -41,7 +41,7 @@ hostBuilder.ConfigureServices(
             {
                 cfg.Host(
                     "localhost",
-                    5675,
+                    5672,
                     "/",
                     h =>
                     {
